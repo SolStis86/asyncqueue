@@ -1,0 +1,18 @@
+{
+  "devDependencies": {
+    "typescript": "^3.9.7"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "name": "asyncqueue",
+  "version": "1.0.0",
+  "description": "Sequence async requests with parallel capability",
+  "main": "dist/index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@types/lodash": "^4.14.157",
+    "arboreal.js": "^0.0.3",
+    "lodash": "^4.17.19"
+  }
+}
